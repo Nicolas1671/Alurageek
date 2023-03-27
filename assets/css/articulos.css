@@ -1,0 +1,75 @@
+.articulos {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 5rem 4rem 5rem;
+    background-color: rgb(226, 226, 238);
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.articulo__titulo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+}
+
+.articulo__titulo--1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.articulo__boton {
+    border: none;
+    background: none;
+    color: #260fe3;
+    font-size: 0.9rem;
+    font-weight: 900;
+}  
+
+.articulo__boton:hover {
+    cursor: pointer;
+}
+
+.gralarticulos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gralarticulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.gralarticulo__titulo {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.gralarticulo__precio {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: rgb(22, 19, 19);
+    font-weight: 600;
+}
+
+.gralarticulo__boton {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: rgb(21, 4, 177);
+    font-weight: 600;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.gralarticulo__boton:hover {
+    cursor: pointer;
+}

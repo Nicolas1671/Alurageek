@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraGeek</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset1.css" rel="stylesheet" />
+        <link href="./assets/css/reset2.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/cabecera.css">
+        <link rel="stylesheet" href="./assets/css/contacto.css">
+        <link rel="stylesheet" href="./assets/css/pie.css">
+        <link rel="stylesheet" href="./assets/css/ingreso.css">
+    </head>
+    <Body>
+        <header class="cabecera">
+            <div class="cabecera__logo">
+                <img class="logo" src="./assets/img/Logo.png" alt="AluraGeek">
+                <input type="text" class="cabecera__logo--buscar" placeholder="  ....Que deseas buscar?">
+            </div>
+        </header>
+        <section class="ingreso">
+            <div class="ingreso__cuadro">
+                <p class="ingreso__texto">Iniciar Sesión</p>
+                <input class="ingreso__correo" type="text" placeholder="Escriba su correo electronico" required>
+                <input class="ingreso__password" type="text" placeholder="Escriba su contraseña" required>
+                <button class="ingreso__boton">Entrar</button>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto__logo">
+                <img src="./assets/img/Logo.png" alt="logo AluraGeek">
+            </div>
+            <div class="contacto__nosotros">
+                <ul class="nosotros__lista">
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Quienes somos</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Politica de privacidad</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Programa de fidelidad</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Nuestras Tiendas</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Quiero ser franquiciado</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Anuncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="contacto__cuadro">
+                <p class="cuadro__texto">Hable con nosotros</p>
+                <input class="cuadro__nombre" type="text" placeholder="Nombre" required>
+                <textarea class="cuadro__textarea" rows="3" cols="60" placeholder="Escribe tu mensaje" required></textarea>
+                <button class="cuadro__boton">Enviar Mensaje</button>
+            </div>
+        </section>
+        <footer class="pie">
+            <p class="pie__texto">Desarrollado por Nicolas Allende</p>
+            <p class="pie__texto">Marzo 2023</p>
+        </footer>   
+    </Body>
+</html>

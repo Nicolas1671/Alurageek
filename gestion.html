@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraGeek</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset1.css" rel="stylesheet" />
+        <link href="./assets/css/reset2.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/css/cabecera.css">
+        <link rel="stylesheet" href="./assets/css/contacto.css">
+        <link rel="stylesheet" href="./assets/css/pie.css">
+        <link rel="stylesheet" href="./assets/css/ingreso.css">
+    </head>
+    <Body>
+        <header class="cabecera">
+            <div class="cabecera__logo">
+                <img class="logo" src="./assets/img/Logo.png" alt="AluraGeek">
+                <input type="text" class="cabecera__logo--buscar" placeholder="  ....Que deseas buscar?">
+            </div>
+            <nav class="login">
+                <button class="login__boton">Menú Administrador</button>
+            </nav>
+        </header>
+        <section class="ingreso">
+            <div class="ingreso__cuadro">
+                <p class="ingreso__texto">Agregar nuevo producto</p>
+                <input class="ingreso__url" type="text" placeholder="URL de imagen" required>
+                <input class="ingreso__categoria" type="text" placeholder="Categoria" required>
+                <input class="ingreso__nombre" type="text" placeholder="Nombre del producto" required>
+                <input class="ingreso__precio" type="text" placeholder="Precio del producto" required>
+                <textarea class="cuadro__textarea" rows="3" cols="48" placeholder="Descripción del producto" required></textarea>
+                <button class="ingreso__boton">Agregar producto</button>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto__logo">
+                <img src="./assets/img/Logo.png" alt="logo AluraGeek">
+            </div>
+            <div class="contacto__nosotros">
+                <ul class="nosotros__lista">
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Quienes somos</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Politica de privacidad</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Programa de fidelidad</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Nuestras Tiendas</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Quiero ser franquiciado</a></li>
+                    <li class="nosotros__item"><a class="nosotros__link" href="">Anuncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="contacto__cuadro">
+                <p class="cuadro__texto">Hable con nosotros</p>
+                <input class="cuadro__nombre" type="text" placeholder="Nombre" required>
+                <textarea class="cuadro__textarea" rows="3" cols="60" placeholder="Escribe tu mensaje" required></textarea>
+                <button class="cuadro__boton">Enviar Mensaje</button>
+            </div>
+        </section>
+        <footer class="pie">
+            <p class="pie__texto">Desarrollado por Nicolas Allende</p>
+            <p class="pie__texto">Marzo 2023</p>
+        </footer> 
+    </Body>
+</html>

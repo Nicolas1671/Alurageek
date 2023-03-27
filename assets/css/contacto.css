@@ -1,0 +1,66 @@
+.contacto {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 2rem 1rem 2rem 1rem;
+    background: #EAF2FD;
+}
+
+.nosotros__item {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.nosotros__link {
+    color: #808080;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.nosotros__link:hover {
+    text-decoration: underline;
+}
+
+.contacto__cuadro {
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadro__texto {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.cuadro__nombre {
+    margin-bottom: 1rem;
+    border: none;
+    font-family: math;
+    line-height: 1.5;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px black;
+    outline: none;
+}
+
+.cuadro__textarea {
+    margin-bottom: 1rem;
+    border: none;
+    font-family: math;
+    line-height: 1.5;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px black;
+    outline: none;
+    resize: none;
+}
+
+.cuadro__boton {
+    height: 2.5rem;
+    width: 25%;
+    background-color: #226da9;
+    color: #dbcccc;
+    border: none;
+    font-size: 0.9rem;
+}
+
+.cuadro__boton:hover {
+    cursor: pointer;
+}
